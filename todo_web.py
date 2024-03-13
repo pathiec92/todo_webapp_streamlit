@@ -11,6 +11,7 @@ def add_todo():
     s.session_state['todo'] = ""
 
 
+s.set_page_config(layout="wide")
 s.title("Todo App")
 s.subheader("I am building a world class todo app which can be accessible across the world!!")
 s.write("""
